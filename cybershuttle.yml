@@ -3,8 +3,8 @@ project:
   description: "A speech demo that uses Neural Oscillators"
   homepage: https://github.com/nandchandravadia/NeuroDATA_2025
   authors:
-    - Nabil Imam
-    - Nand Chandravadia
+    - nimam6@gatech.edu
+    - nchandravadia3@gatech.edu
   tags:
     - neurodata25
     - imamlab
@@ -13,9 +13,9 @@ project:
 workspace:
   resources:
     min_cpu: 4
-    min_gpu: 0
     min_mem: 4096
-    gpu_mem: 1024
+    min_gpu: 0
+    gpu_mem: 0
   model_collection: []
   data_collection: []
   
